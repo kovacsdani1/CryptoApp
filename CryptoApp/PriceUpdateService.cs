@@ -39,7 +39,7 @@ namespace CryptoApp
                 }
                 await context.SaveChangesAsync();
 
-                await Task.Delay(TimeSpan.FromSeconds(2), stoppingToken);
+                await Task.Delay(TimeSpan.FromSeconds(60), stoppingToken);
             }
         }
     }
